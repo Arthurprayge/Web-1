@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -65,18 +65,18 @@
                 <legend>Estado-civil</legend>
                 <div>
                     <p>
-                    <label for="est_civil">
-                        <input type="radio" name="est_civil" value="divorciado"> Divorciado
-                    </label>
+                        <label for="est_civil">
+                            <input type="radio" name="est_civil" value="divorciado"> Divorciado
+                        </label>
                     </p>
                 </div>
                 <div>
-<p>
-    
+                    <p>
+
                         <label for="est_civil">
                             <input type="radio" name="est_civil" value="casado"> Casado
                         </label>
-</p>
+                    </p>
                 </div>
 
                 <div>
@@ -98,28 +98,74 @@
 
         <div>
             <fieldset>
-                 <legend>Produtos</legend>
-                 <p>
+                <legend>Produtos</legend>
+                <p>
                     <label for="">
                         <input type="checkbox" name="computador" value="computador"> computador
                     </label>
-                 </p>
-                 <p>
+                </p>
+                <p>
                     <label for="">
                         <input type="checkbox" name="televisão" value="televisão"> televisão
                     </label>
-                 </p>
-                 <p>
+                </p>
+                <p>
                     <label for="">
                         <input type="checkbox" name="telefone" value="telefone"> telefone
                     </label>
-                 </p>
+                </p>
 
 
             </fieldset>
         </div>
+
+        <div>
+            <label for="">
+                Deixe sua sugestão:
+                <textarea cols="30" rows="5
+                "></textarea>
+            </label>
+        </div>
+        <div>
+            <p>
+                <label for="">
+                    Site: <input type="url" list="sites" name="link">
+
+                </label>
+            </p>
+            <datalist id="sites">
+                <option label="Lichess"> https://lichess.org/
+                </option>
+                <option label="Portal Unipam"> https://portal.unipam.edu.br/
+                </option>
+                <option label="Bro code">https://www.youtube.com/watch?v=xND0t1pr3KY</option>
+
+            </datalist>
+        </div>
+
+        <div>
+            <p>
+                <label for="">
+                    Carro:
+                    <select name="Carros" id="" required>
+                        <optgroup label="1_esportivos">
+                        <option value="1.1">Ferrari</option>
+                        <option value="1.2">Porche</option>
+                        <option value="1.3">Lamborgni</option>
+
+                        <optgroup label="2 Popular">
+                            <option value="2.1"><img src="img/download.jpg" alt=""></option>
+                            <option value="2.2">Corsa</option>
+                            <option value="2.3">Gol</option>
+                            <option value="2.4">Palio</option>
+                    </select>
+                </label>
+            </p>
+        </div>
+
         <button type="submit">Enviar</button>
     </form>
+
 
 
 
