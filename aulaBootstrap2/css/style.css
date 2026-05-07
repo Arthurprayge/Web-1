@@ -1,0 +1,9 @@
+.nav-item a:hover{
+    background-color:rgba(255, 0, 0, 0.555) !important;
+    color: #fff !important;
+}
+.formulario{
+    padding 10px;
+    text-align: center;
+    
+}
