@@ -1,0 +1,27 @@
+/*Variavel global: É uma variável que pode ser aplicada em diversas partes do css.
+background-color vai do content ate o padding */
+root{
+    --cor-primaria: #4f46e5;
+    --cor-primaria-hover: #4338ca;
+    --cor-secundaria: #22c55e;
+    --cor-texto: #1e293b;
+    --cor-fundo: #f8fafc;
+    --cor-card: #fff;
+    --cor-tag: #e0e7ff;
+
+    --espaço-pequeno: 0.5rem;
+    --espaço-medio: 1rem;
+    --espaço-pequeno: 1.5rem;
+    --espaço-extra: 2rem;
+}
+p{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+div{
+    background-color: green;
+}
+
+button{
+    background-color:var(--cor-primaria);
+    color: black;
+}
